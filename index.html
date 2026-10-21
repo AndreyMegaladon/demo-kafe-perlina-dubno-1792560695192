@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе та банкетний зал “Перлина” у Дубно</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans">
+
+    <!-- Навигация -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto w-full px-6 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-amber-800">Кафе “Перлина”</a>
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 font-medium transition">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 font-medium transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 font-medium transition">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Хлебные крошки -->
+    <div class="bg-amber-50/50 py-3 border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-stone-600">
+            <span>Головна</span>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <header class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80')">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative max-w-4xl mx-auto px-6 text-white py-20">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Кафе та банкетний зал “Перлина” у Дубно</h1>
+            <p class="text-lg md:text-xl mb-10 text-stone-200">Затишне місце для ваших сімейних вечорів, урочистих подій та смачних страв української кухні</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="booking.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Забронювати стіл</a>
+                <a href="services.html" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-xl text-lg font-semibold transition">Переглянути меню</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Избранные позиции меню -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-stone-900 mb-4">Популярні страви</h2>
+            <p class="text-stone-600 max-w-2xl mx-auto">Скуштуйте наші найкращі частування, приготовані з душею за традиційними рецептами</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-stone-100">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Шашлик" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Страви на мангалі</span>
+                    <h3 class="text-xl font-bold text-stone-900 mt-3 mb-2">Шашлик</h3>
+                    <p class="text-stone-600 text-sm">Соковитий м'ясний шашлик, приготований на мангалі за фірмовим рецептом.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-stone-100">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Ребра та стейки" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Страви на мангалі</span>
+                    <h3 class="text-xl font-bold text-stone-900 mt-3 mb-2">Ребра та стейки</h3>
+                    <p class="text-stone-600 text-sm">Апетитні ребра та соковиті стейки з мангала.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-stone-100">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" alt="Традиційні українські страви" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Основні страви</span>
+                    <h3 class="text-xl font-bold text-stone-900 mt-3 mb-2">Традиційні українські страви</h3>
+                    <p class="text-stone-600 text-sm">Самобутні наїдки суто волинської та української кухні.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="services.html" class="inline-block bg-stone-900 hover:bg-amber-600 text-white px-8 py-3 rounded-xl font-semibold transition">Усе меню</a>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="bg-stone-100 py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-stone-900 mb-4">Відгуки гостей</h2>
+                <p class="text-stone-600">Що кажуть відвідувачі про наш заклад</p>
+            </div>
+            <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl relative">
+                <div class="text-amber-500 text-4xl mb-4">“</div>
+                <p class="text-stone-700 text-lg italic mb-6">Сюди варто завітати, щоб скуштувати традиційні українські страви чи самобутні наїдки суто волинської кухні, які приємно дивують. Персонал чемний, розторопний та терплячий, а ще дуже подобається тутешня жива музика, що розважає гостей щовечора, приємний інтер’єр та ідеальна чистота.</p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-stone-900">Відвідувач</h4>
+                        <span class="text-sm text-stone-500">Google Maps</span>
+                    </div>
+                    <div class="flex text-amber-400">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 px-6 max-w-5xl mx-auto text-center">
+        <div class="bg-gradient-to-r from-amber-600 to-orange-600 rounded-3xl p-12 text-white shadow-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Заплануйте своє свято у “Перлині”</h2>
+            <p class="text-amber-100 mb-8 max-w-xl mx-auto">Просторий банкетний зал на 100-120 осіб чекає на ваші весілля, ювілеї та корпоративи.</p>
+            <a href="booking.html" class="inline-block bg-white text-amber-800 hover:bg-amber-50 font-bold px-8 py-4 rounded-xl shadow-lg transition">Забронювати дату</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-stone-900 text-stone-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Кафе “Перлина”</h3>
+                <p class="text-sm text-stone-400">Затишне місце для ваших сімейних вечорів, урочистих подій та смачних страв.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Контакти</h4>
+                <p class="text-sm text-stone-400 mb-2">вул. Забрама, 25А, м. Дубно, Рівненська область</p>
+                <p class="text-sm text-stone-400 mb-2">Телефон: +380993835911</p>
+                <p class="text-sm text-stone-400">Email: perlina_dubno@ukr.net</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Години роботи</h4>
+                <p class="text-sm text-stone-400 mb-2">Щодня з 11:00 до 24:00</p>
+                <p class="text-sm text-amber-400 mt-4">Щовечора жива музика</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-stone-800 text-center text-xs text-stone-500">
+            © 2024 Кафе “Перлина”. Усі права захищені.
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
